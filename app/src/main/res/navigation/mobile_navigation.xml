@@ -77,6 +77,8 @@
         <argument
             android:name="myarg"
             android:defaultValue="Android!"/>
+
+        <deepLink app:uri="www.example.com/{myarg}" />
         <!-- TODO STEP 11.1 - Add a deep link to www.example.com/{myarg}/ -->
 
         <!--<deepLink app:uri="www.example.com/{myarg}" />-->
@@ -88,4 +90,6 @@
         android:name="com.example.android.codelabs.navigation.SettingsFragment"
         android:label="settings_fragment"
         tools:layout="@layout/settings_fragment" />
+
+
 </navigation>
